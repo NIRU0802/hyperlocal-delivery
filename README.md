@@ -40,29 +40,20 @@
 
 ## 🔑 Key Features Explained
 
-### 🍔 Food Delivery
-Browse restaurants with ratings, delivery times, and fees. View detailed menus with categories and pricing. Add items to cart and place orders seamlessly.
+<div align="center">
 
-### 🛒 Quickmart
-Grocery delivery platform with category-based filtering (Fruits & Vegetables, Dairy, Snacks, Beverages, etc.). Browse products and add to cart.
+| | | |
+|:--|:--|:--|
+| 🍔 <br>**Food Delivery** | 🛒 <br>**Quickmart** | ⚡ <br>**Instamart** |
+| Browse restaurants with ratings, delivery times, and fees. View detailed menus and place orders. | Grocery delivery with category-based filtering. Browse products and add to cart. | Fast delivery for urgent needs with quick access to essential items. |
+| 🗺️ <br>**Live Tracking** | 🚴 <br>**Rider Dashboard** | 👤 <br>**Authentication** |
+| Interactive Leaflet maps showing real-time delivery status from restaurant to doorstep. | Dashboard for delivery partners with order stats, earnings & Recharts visualizations. | Secure login/logout with protected routes and user session management. |
+| 📱 <br>**Responsive Design** | 🎯 <br>**Search** | ⭐ <br>**Ratings** |
+| Mobile-first approach ensuring seamless experience across all devices. | Search restaurants and products with debounced search functionality. | Restaurant ratings and review counts for informed decisions. |
+| 📦 <br>**Order Management** | 🏪 <br>**Admin Panels** | 🛵 <br>**Delivery Partners** |
+| Complete cart, checkout, and order tracking system. | Admin pages for Quickmart and Quickbite management. | View delivery partner information and track deliveries. |
 
-### ⚡ Instamart
-Fast delivery section for urgent ordering needs with quick access to essential items.
-
-### 🗺️ Live Order Tracking
-Interactive Leaflet maps showing real-time delivery status. Track your order from restaurant to your doorstep with live updates.
-
-### 🚴 Rider Dashboard
-Comprehensive dashboard for delivery partners featuring:
-- Order statistics and earnings
-- Performance metrics with Recharts visualizations
-- Active order management
-
-### 👤 Authentication System
-Secure login/logout functionality with protected routes. User session management for personalized experience.
-
-### 📱 Responsive Design
-Mobile-first approach ensuring seamless experience across all devices - desktop, tablet, and mobile.
+</div>
 
 ---
 
