@@ -1,276 +1,67 @@
-# 🚀 Hyperlocal Delivery
+# 👋 Hi, I'm Niraj Kathe!
 
 <p align="center">
-  <a href="https://nodejs.org" target="_blank"><img src="https://img.shields.io/badge/Node.js-20-339933?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js"></a>
-  <a href="https://nextjs.org" target="_blank"><img src="https://img.shields.io/badge/Next.js_15-000000?style=for-the-badge&logo=next.js&logoColor=white" alt="Next.js"></a>
-  <a href="https://react.dev" target="_blank"><img src="https://img.shields.io/badge/React_19-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React"></a>
-  <a href="https://www.typescriptlang.org" target="_blank"><img src="https://img.shields.io/badge/TypeScript_5.7-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"></a>
-  <a href="https://tailwindcss.com" target="_blank"><img src="https://img.shields.io/badge/Tailwind_CSS_3.4-38BDF8?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS"></a>
-  <a href="https://zustand-demo.pmnd.rs" target="_blank"><img src="https://img.shields.io/badge/Zustand_5-764ABC?style=for-the-badge&logo=react&logoColor=white" alt="Zustand"></a>
-  <a href="https://tanstack.com/query/latest" target="_blank"><img src="https://img.shields.io/badge/React_Query-FF4154?style=for-the-badge&logo=react-query&logoColor=white" alt="React Query"></a>
-  <a href="https://leafletjs.com" target="_blank"><img src="https://img.shields.io/badge/Leaflet-199900?style=for-the-badge&logo=leaflet&logoColor=white" alt="Leaflet"></a>
-  <a href="https://recharts.org" target="_blank"><img src="https://img.shields.io/badge/Recharts-00D2D3?style=for-the-badge&logo=recharts&logoColor=white" alt="Recharts"></a>
-  <a href="https://www.framer.com/motion" target="_blank"><img src="https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white" alt="Framer Motion"></a>
+  <img src="https://komarev.com/ghpvc/?username=NIRU0802&label=Profile%20Views&color=0e75b6&style=for-the-badge" alt="Profile Views">
+  <img src="https://img.shields.io/github/followers/NIRU0802?style=for-the-badge&logo=github&label=Followers" alt="Followers">
 </p>
 
 ---
 
-> A modern hyperlocal delivery platform for food and groceries built with Next.js 15, React 19, and Tailwind CSS
+## 💻 About Me
 
----
-
-## ✨ Features
-
-| Feature | Description |
-|---------|-------------|
-| 🍔 **Food Delivery** | Browse and order from multiple restaurants (McDonald's, Domino's, etc.) |
-| 🛒 **Quickmart** | Grocery delivery with category filtering |
-| ⚡ **Instamart** | Quick delivery for urgent needs |
-| 🗺️ **Live Tracking** | Real-time order tracking with Leaflet maps |
-| 🛵 **Delivery Partners** | View delivery partner information |
-| 🚴 **Rider Dashboard** | Dedicated dashboard for delivery partners with order stats |
-| 👤 **User Authentication** | Secure login/logout system |
-| 📱 **Responsive Design** | Works seamlessly on all devices |
-| 🎯 **Search** | Search restaurants and products |
-| ⭐ **Ratings & Reviews** | Restaurant ratings and review counts |
-| 📦 **Order Management** | Cart, checkout, and order tracking |
-| 🏪 **Admin Panels** | Admin pages for Quickmart and Quickbite management |
-
----
-
-## 🔑 Key Features Explained
-
-<div align="center">
-
-| | | |
-|:--|:--|:--|
-| 🍔 <br>**Food Delivery** | 🛒 <br>**Quickmart** | ⚡ <br>**Instamart** |
-| Browse restaurants with ratings, delivery times, and fees. View detailed menus and place orders. | Grocery delivery with category-based filtering. Browse products and add to cart. | Fast delivery for urgent needs with quick access to essential items. |
-| 🗺️ <br>**Live Tracking** | 🚴 <br>**Rider Dashboard** | 👤 <br>**Authentication** |
-| Interactive Leaflet maps showing real-time delivery status from restaurant to doorstep. | Dashboard for delivery partners with order stats, earnings & Recharts visualizations. | Secure login/logout with protected routes and user session management. |
-| 📱 <br>**Responsive Design** | 🎯 <br>**Search** | ⭐ <br>**Ratings** |
-| Mobile-first approach ensuring seamless experience across all devices. | Search restaurants and products with debounced search functionality. | Restaurant ratings and review counts for informed decisions. |
-| 📦 <br>**Order Management** | 🏪 <br>**Admin Panels** | 🛵 <br>**Delivery Partners** |
-| Complete cart, checkout, and order tracking system. | Admin pages for Quickmart and Quickbite management. | View delivery partner information and track deliveries. |
-
-</div>
-
----
-
-## ⚙️ How It Works
-
-```
-┌──────────────┐     ┌──────────────┐     ┌──────────────┐
-│   User       │────▶│   Browse     │────▶│   Add to    │
-│   Visits     │     │   Restaurants│     │   Cart      │
-└──────────────┘     └──────────────┘     └──────────────┘
-                                                │
-                                                ▼
-┌──────────────┐     ┌──────────────┐     ┌──────────────┐
-│   Delivered  │◀────│   Tracking   │◀────│  Checkout    │
-│   to Door    │     │   Live Map   │     │  & Payment   │
-└──────────────┘     └──────────────┘     └──────────────┘
-```
-
-### User Flow:
-1. **Browse** - Users explore restaurants, Quickmart, or Instamart
-2. **Select** - Choose items and add to cart
-3. **Checkout** - Review cart and place order
-4. **Track** - Real-time order tracking via map
-5. **Receive** - Order delivered to doorstep
-
-### Admin Flow:
-1. **Dashboard** - View and manage orders
-2. **Products** - Manage menu items and products
-
-### Rider Flow:
-1. **Login** - Access rider dashboard
-2. **View Orders** - See available delivery orders
-3. **Deliver** - Complete deliveries and update status
+- 🔭 Full Stack Developer building web applications
+- 🌐 [Portfolio](https://niiraj-portfolio.netlify.app)
+- 💼 [LinkedIn](https://www.linkedin.com/in/nirajkathe)
+- 📧 nirajkathe08@gmail.com
 
 ---
 
 ## 🛠️ Tech Stack
 
-### Core
-- **[Node.js 20](https://nodejs.org)** - JavaScript runtime
-- **[Next.js 15](https://nextjs.org)** - React framework with App Router
-- **[React 19](https://react.dev)** - UI library
-- **[TypeScript 5.7](https://www.typescriptlang.org)** - Type safety
-
-### Styling & Build
-- **[Tailwind CSS 3.4](https://tailwindcss.com)** - Utility-first CSS framework
-- **[PostCSS](https://postcss.org)** - CSS transformations
-- **[Autoprefixer](https://github.com/postcss/autoprefixer)** - Vendor prefixer
-
-### State Management
-- **[Zustand 5](https://zustand-demo.pmnd.rs)** - Lightweight state management
-- **[React Query 5](https://tanstack.com/query/latest)** - Server state management
-
-### Maps & Location
-- **[Leaflet](https://leafletjs.com)** - Interactive maps
-- **[React Leaflet](https://react-leaflet.js.org)** - React bindings for Leaflet
-
-### Data Visualization
-- **[Recharts](https://recharts.org)** - Charts for rider dashboard
-
-### Animation
-- **[Framer Motion 11](https://www.framer.com/motion)** - Animations and gestures
-
-### Utilities
-- **[clsx](https://github.com/lukeed/clsx)** - Conditional class names
-- **[React Virtual](https://tanstack.com/virtual)** - Virtual list rendering
-
-### Development
-- **[ESLint](https://eslint.org)** - Code linting
-- **[Turbopack](https://turbo.build/pack)** - Rust-based bundler
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=react,nextjs,typescript,tailwind,nodejs,express,mongodb,firebase,figma,git,vscode,vercel" />
+</p>
 
 ---
 
-## 🚦 Getting Started
+## 📊 GitHub Stats
 
-### Prerequisites
-
-- Node.js 20+
-- npm or yarn
-
-### Installation
-
-```bash
-# Clone the repository
-git clone https://github.com/NIRU0802/hyperlocal-delivery.git
-
-# Navigate to project directory
-cd hyperlocal-delivery
-
-# Install dependencies
-npm install
-
-# Start development server
-npm run dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) in your browser.
-
-### Build for Production
-
-```bash
-# Create production build
-npm run build
-
-# Start production server
-npm start
-```
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=NIRU0802&show_icons=true&theme=radical&hide_border=true&bg_color=0d1117" height="180" alt="Stats">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NIRU0802&layout=compact&theme=radical&hide_border=true&bg_color=0d1117" height="180" alt="Languages">
+</p>
 
 ---
 
-## 📁 Project Structure
+## 🏆 Featured Projects
 
-```
-hyperlocal-delivery/
-├── app/                         # Next.js App Router
-│   ├── api/                    # API Routes
-│   │   ├── auth/              # Authentication
-│   │   ├── menu/              # Menu API
-│   │   ├── orders/            # Orders API
-│   │   ├── products/          # Products API
-│   │   └── restaurants/       # Restaurants API
-│   ├── admin/                 # Admin Panels
-│   │   ├── quickbite/        # Quickbite Admin
-│   │   └── quickmart/         # Quickmart Admin
-│   ├── cart/                  # Shopping Cart
-│   ├── checkout/              # Checkout Page
-│   ├── delivery/              # Delivery Page
-│   ├── instamart/             # Instant Delivery
-│   ├── login/                 # Authentication
-│   ├── quickbite/             # Food Delivery
-│   ├── quickmart/             # Grocery Delivery
-│   │   └── category/[slug]/  # Category Pages
-│   ├── restaurant/[id]/       # Restaurant Details
-│   ├── restaurants/           # Restaurant List
-│   ├── rider/dashboard/       # Rider Dashboard
-│   └── track-order/           # Order Tracking
-├── components/                 # React Components
-│   ├── data/                  # Mock Data (JSON)
-│   ├── hooks/                 # Custom Hooks
-│   ├── lib/                   # Utilities
-│   ├── store/                 # Zustand Stores
-│   │   ├── authStore.ts      # Auth State
-│   │   ├── cartStore.ts      # Cart State
-│   │   ├── orderStore.ts     # Order State
-│   │   └── uiStore.ts        # UI State
-│   ├── types/                 # TypeScript Types
-│   ├── CartSidebar.tsx       # Cart Sidebar
-│   ├── Navbar.tsx            # Navigation Bar
-│   ├── OrderTrackingMap.tsx  # Order Map
-│   ├── RiderMap.tsx          # Rider Map
-│   └── SearchModal.tsx       # Search Modal
-├── lib/                       # Helper Functions
-│   ├── search.ts             # Search Utilities
-│   └── timeUtils.ts          # Time Utilities
-├── stores/                    # Additional Stores
-│   ├── authStore.ts
-│   └── systemStore.ts
-├── middleware.ts              # Next.js Middleware
-├── next.config.js             # Next.js Config
-├── tailwind.config.cjs        # Tailwind Config
-├── postcss.config.cjs         # PostCSS Config
-└── tsconfig.json             # TypeScript Config
-```
+| Project | Description | Tech |
+|---------|-------------|------|
+| [hyperlocal-delivery](https://github.com/NIRU0802/hyperlocal-delivery) | Food & grocery delivery platform | Next.js, React, Tailwind |
+| [Decentragram](https://github.com/NIRU0802/Decentragram) | Decentralized social media | JavaScript |
+| [Ecommerce-Site](https://github.com/NIRU0802/Ecommerce-Site) | E-commerce website | HTML, CSS |
+| [GR8-AI-Assistant](https://github.com/NIRU0802/GR8-AI-Assistant) | AI-powered assistant | TypeScript |
+| [society-management](https://github.com/NIRU0802/society-management) | Society management system | TypeScript |
+| [WeatherApp](https://github.com/NIRU0802/WeatherApp) | Weather forecast app | JavaScript |
 
 ---
 
-## 📦 API Endpoints
+## 📫 Connect With Me
 
-| Endpoint | Method | Description |
-|----------|--------|-------------|
-| `/api/auth` | POST | User authentication |
-| `/api/restaurants` | GET | List all restaurants |
-| `/api/menu` | GET | Get restaurant menu |
-| `/api/orders` | GET/POST | Manage orders |
-| `/api/products` | GET | Get products |
-
----
-
-## 🖼️ Pages
-
-| Route | Description |
-|-------|-------------|
-| `/` | Home page |
-| `/restaurants` | Restaurant listing |
-| `/restaurant/[id]` | Restaurant details & menu |
-| `/quickbite` | Quickbite delivery |
-| `/quickmart` | Grocery delivery |
-| `/quickmart/category/[slug]` | Category products |
-| `/instamart` | Instant delivery |
-| `/cart` | Shopping cart |
-| `/checkout` | Checkout page |
-| `/delivery` | Delivery information |
-| `/track-order` | Order tracking with map |
-| `/login` | User login |
-| `/rider/dashboard` | Rider dashboard |
-| `/admin/quickbite` | Quickbite admin |
-| `/admin/quickmart` | Quickmart admin |
-
----
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
----
-
-## 👨‍💻 Author
-
-**NIRU0802**
-- GitHub: [@NIRU0802](https://github.com/NIRU0802)
+<p align="center">
+  <a href="https://linkedin.com/in/nirajkathe" target="_blank">
+    <img src="https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
+  </a>
+  <a href="https://niiraj-portfolio.netlify.app" target="_blank">
+    <img src="https://img.shields.io/badge/-Portfolio-00ADB5?style=for-the-badge&logo=portfolio&logoColor=white" alt="Portfolio">
+  </a>
+  <a href="mailto:nirajkathe08@gmail.com">
+    <img src="https://img.shields.io/badge/-Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
+  </a>
+</p>
 
 ---
 
 <p align="center">
-  ⭐ Star this repository if you found it helpful!
+  ⭐ From <a href="https://github.com/NIRU0802">NIRU0802</a>
 </p>
