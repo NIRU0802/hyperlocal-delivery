@@ -1,14 +1,21 @@
 # 🚀 Hyperlocal Delivery
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Next.js-14-black?style=for-the-badge&logo=next.js" alt="Next.js">
-  <img src="https://img.shields.io/badge/React-18-blue?style=for-the-badge&logo=react" alt="React">
-  <img src="https://img.shields.io/badge/TypeScript-5.0-blue?style=for-the-badge&logo=typescript" alt="TypeScript">
-  <img src="https://img.shields.io/badge/Tailwind_CSS-3.0-38bdf8?style=for-the-badge&logo=tailwind-css" alt="Tail  <img src="https://imgwind">
-.shields.io/badge/License-MIT-green?style=for-the-badge" alt="License">
+  <a href="https://nextjs.org"><img src="https://img.shields.io/badge/Next.js_15-black?style=for-the-badge&logo=next.js&logoColor=white" alt="Next.js"></a>
+  <a href="https://react.dev"><img src="https://img.shields.io/badge/React_19-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React"></a>
+  <a href="https://www.typescriptlang.org"><img src="https://img.shields.io/badge/TypeScript_5.7-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"></a>
+  <a href="https://tailwindcss.com"><img src="https://img.shields.io/badge/Tailwind_CSS_3.4-38BDF8?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS"></a>
 </p>
 
-> A modern hyperlocal delivery platform for food and groceries built with Next.js
+<p align="center">
+  <img src="https://img.shields.io/badge/License-MIT-green?style=flat-square" alt="License">
+  <img src="https://img.shields.io/github/repo-size/NIRU0802/hyperlocal-delivery?style=flat-square" alt="Repo Size">
+  <img src="https://img.shields.io/github/contributors/NIRU0802/hyperlocal-delivery?style=flat-square" alt="Contributors">
+</p>
+
+---
+
+> A modern hyperlocal delivery platform for food and groceries built with Next.js 15, React 19, and Tailwind CSS
 
 ---
 
@@ -16,33 +23,39 @@
 
 | Feature | Description |
 |---------|-------------|
-| 🍔 **Food Ordering** | Browse and order from nearby restaurants |
-| 🛒 **Quickmart** | Grocery delivery from local stores |
-| ⚡ **Instamart** | Instant delivery for urgent needs |
-| 🗺️ **Live Tracking** | Real-time order tracking with map |
-| 🚴 **Rider App** | Dedicated dashboard for delivery partners |
-| 👤 **Auth System** | Secure user authentication |
-| 📱 **Responsive** | Works on all devices |
+| 🍔 **Food Delivery** | Browse and order from multiple restaurants (McDonald's, Domino's, etc.) |
+| 🛒 **Quickmart** | Grocery delivery with category filtering |
+| ⚡ **Instamart** | Quick delivery for urgent needs |
+| 🗺️ **Live Tracking** | Real-time order tracking with Leaflet maps |
+| 🛵 **Delivery Partners** | View delivery partner information |
+| 🚴 **Rider Dashboard** | Dedicated dashboard for delivery partners with order stats |
+| 👤 **User Authentication** | Secure login/logout system |
+| 📱 **Responsive Design** | Works seamlessly on all devices |
+| 🎯 **Search** | Search restaurants and products |
+| ⭐ **Ratings & Reviews** | Restaurant ratings and review counts |
+| 📦 **Order Management** | Cart, checkout, and order tracking |
+| 🏪 **Admin Panels** | Admin pages for Quickmart and Quickbite management |
 
 ---
 
 ## 🛠️ Tech Stack
 
-<div align="center">
+### Frontend
+- **Next.js 15** - React framework with App Router
+- **React 19** - UI library
+- **TypeScript 5.7** - Type safety
+- **Tailwind CSS 3.4** - Styling
 
-```
-┌─────────────┐   ┌─────────────┐   ┌─────────────┐
-│   Next.js   │ + │   React     │ + │TypeScript  │
-└─────────────┘   └─────────────┘   └─────────────┘
-         │               │               │
-         ▼               ▼               ▼
-┌─────────────┐   ┌─────────────┐   ┌─────────────┐
-│  Tailwind   │   │    Zustand  │   │  Framer    │
-│     CSS     │   │   (State)   │   │  Motion    │
-└─────────────┘   └─────────────┘   └─────────────┘
-```
+### State Management & Data
+- **Zustand 5** - Lightweight state management
+- **React Query** - Server state management
 
-</div>
+### Maps & Visualization
+- **Leaflet** - Interactive maps for order tracking
+- **Recharts** - Data visualization for rider dashboard
+
+### Animation
+- **Framer Motion** - Smooth animations
 
 ---
 
@@ -50,7 +63,7 @@
 
 ### Prerequisites
 
-- Node.js 18+ 
+- Node.js 20+
 - npm or yarn
 
 ### Installation
@@ -71,40 +84,127 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000) in your browser.
 
+### Build for Production
+
+```bash
+# Create production build
+npm run build
+
+# Start production server
+npm start
+```
+
 ---
 
 ## 📁 Project Structure
 
 ```
 hyperlocal-delivery/
-├── app/                    # Next.js App Router
-│   ├── admin/             # Admin panels
-│   ├── api/               # API routes
-│   ├── cart/              # Cart page
-│   ├── checkout/          # Checkout page
-│   ├── login/             # Login page
-│   ├── quickbite/         # Food delivery
-│   ├── quickmart/         # Grocery delivery
-│   ├── rider/             # Rider dashboard
-│   └── restaurant/        # Restaurant pages
-├── components/            # React components
-│   ├── data/              # Mock data
-│   ├── hooks/             # Custom hooks
-│   ├── lib/               # Utilities
-│   └── store/             # State management
-├── lib/                   # Helper functions
-└── stores/                # Zustand stores
+├── app/                         # Next.js App Router
+│   ├── api/                    # API Routes
+│   │   ├── auth/              # Authentication
+│   │   ├── menu/              # Menu API
+│   │   ├── orders/            # Orders API
+│   │   ├── products/          # Products API
+│   │   └── restaurants/       # Restaurants API
+│   ├── admin/                 # Admin Panels
+│   │   ├── quickbite/        # Quickbite Admin
+│   │   └── quickmart/         # Quickmart Admin
+│   ├── cart/                  # Shopping Cart
+│   ├── checkout/              # Checkout Page
+│   ├── delivery/              # Delivery Page
+│   ├── instamart/             # Instant Delivery
+│   ├── login/                 # Authentication
+│   ├── quickbite/             # Food Delivery
+│   ├── quickmart/             # Grocery Delivery
+│   │   └── category/[slug]/  # Category Pages
+│   ├── restaurant/[id]/       # Restaurant Details
+│   ├── restaurants/           # Restaurant List
+│   ├── rider/dashboard/       # Rider Dashboard
+│   └── track-order/           # Order Tracking
+├── components/                 # React Components
+│   ├── data/                  # Mock Data (JSON)
+│   ├── hooks/                 # Custom Hooks
+│   ├── lib/                   # Utilities
+│   ├── store/                 # Zustand Stores
+│   │   ├── authStore.ts      # Auth State
+│   │   ├── cartStore.ts      # Cart State
+│   │   ├── orderStore.ts     # Order State
+│   │   └── uiStore.ts        # UI State
+│   ├── types/                 # TypeScript Types
+│   ├── CartSidebar.tsx       # Cart Sidebar
+│   ├── Navbar.tsx            # Navigation Bar
+│   ├── OrderTrackingMap.tsx  # Order Map
+│   ├── RiderMap.tsx          # Rider Map
+│   └── SearchModal.tsx       # Search Modal
+├── lib/                       # Helper Functions
+│   ├── search.ts             # Search Utilities
+│   └── timeUtils.ts          # Time Utilities
+├── stores/                    # Additional Stores
+│   ├── authStore.ts
+│   └── systemStore.ts
+├── middleware.ts              # Next.js Middleware
+├── next.config.js             # Next.js Config
+├── tailwind.config.cjs        # Tailwind Config
+├── postcss.config.cjs         # PostCSS Config
+└── tsconfig.json             # TypeScript Config
 ```
 
 ---
 
-## 📸 Screenshots
+## 🔑 Key Features Explained
 
-<p align="center">
-  <img src="https://via.placeholder.com/800x400?text=Home+Page" alt="Home Page">
-  <img src="https://via.placeholder.com/800x400?text=Restaurant+Page" alt="Restaurant Page">
-  <img src="https://via.placeholder.com/800x400?text=Cart+Page" alt="Cart Page">
-</p>
+### 🍔 Food Ordering
+Browse restaurants with ratings, delivery times, and fees. View menus and add items to cart.
+
+### 🛒 Quickmart
+Grocery delivery with category-based filtering (e.g., Fruits & Vegetables, Dairy, Snacks).
+
+### ⚡ Instamart
+Fast delivery section for urgent ordering needs.
+
+### 🗺️ Live Order Tracking
+Interactive Leaflet maps showing delivery status and real-time tracking.
+
+### 🚴 Rider Dashboard
+Stats dashboard for delivery partners showing orders, earnings, and performance.
+
+### 👤 Authentication
+Login system with protected routes and user session management.
+
+---
+
+## 📦 API Endpoints
+
+| Endpoint | Method | Description |
+|----------|--------|-------------|
+| `/api/auth` | POST | User authentication |
+| `/api/restaurants` | GET | List all restaurants |
+| `/api/menu` | GET | Get restaurant menu |
+| `/api/orders` | GET/POST | Manage orders |
+| `/api/products` | GET | Get products |
+
+---
+
+## 🖼️ Pages
+
+| Route | Description |
+|-------|-------------|
+| `/` | Home page |
+| `/restaurants` | Restaurant listing |
+| `/restaurant/[id]` | Restaurant details & menu |
+| `/quickbite` | Quickbite delivery |
+| `/quickmart` | Grocery delivery |
+| `/quickmart/category/[slug]` | Category products |
+| `/instamart` | Instant delivery |
+| `/cart` | Shopping cart |
+| `/checkout` | Checkout page |
+| `/delivery` | Delivery information |
+| `/track-order` | Order tracking with map |
+| `/login` | User login |
+| `/rider/dashboard` | Rider dashboard |
+| `/admin/quickbite` | Quickbite admin |
+| `/admin/quickmart` | Quickmart admin |
 
 ---
 
@@ -120,7 +220,7 @@ hyperlocal-delivery/
 
 ## 📝 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License.
 
 ---
 
@@ -132,5 +232,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ---
 
 <p align="center">
-  Made with ❤️
+  ⭐ Star this repository if you found it helpful!
 </p>
