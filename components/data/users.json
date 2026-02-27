@@ -1,0 +1,47 @@
+[
+  {
+    "id": "user_001",
+    "email": "user@quickbite.com",
+    "name": "Rahul Sharma",
+    "phone": "+91 9876543210",
+    "role": "customer",
+    "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100",
+    "addresses": [
+      {
+        "id": "addr_001",
+        "label": "Home",
+        "fullAddress": "Flat 201, Green Valley Apartments, Nashik",
+        "coordinates": { "lat": 20.0100, "lng": 73.7850 },
+        "isDefault": true
+      },
+      {
+        "id": "addr_002",
+        "label": "Office",
+        "fullAddress": "Tech Park, IT Park Road, Nashik",
+        "coordinates": { "lat": 20.0180, "lng": 73.7750 },
+        "isDefault": false
+      }
+    ],
+    "createdAt": "2024-01-15T10:00:00Z"
+  },
+  {
+    "id": "user_002",
+    "email": "rider@quickbite.com",
+    "name": "Vikram Jadhav",
+    "phone": "+91 9876543211",
+    "role": "delivery",
+    "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100",
+    "addresses": [],
+    "createdAt": "2024-02-01T08:00:00Z"
+  },
+  {
+    "id": "user_003",
+    "email": "admin@quickbite.com",
+    "name": "Sanjay Patil",
+    "phone": "+91 9876543212",
+    "role": "admin",
+    "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100",
+    "addresses": [],
+    "createdAt": "2023-12-01T09:00:00Z"
+  }
+]

@@ -1,0 +1,67 @@
+[
+  {
+    "id": "driver_001",
+    "name": "Vikram Jadhav",
+    "phone": "+91 9876543211",
+    "email": "rider@quickbite.com",
+    "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100",
+    "vehicle": "Honda Activa",
+    "status": "available",
+    "rating": 4.8,
+    "totalDeliveries": 1250,
+    "earnings": 45000,
+    "coordinates": { "lat": 20.0115, "lng": 73.7865 }
+  },
+  {
+    "id": "driver_002",
+    "name": "Amit Shinde",
+    "phone": "+91 9876543213",
+    "email": "amit@quickbite.com",
+    "avatar": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=100",
+    "vehicle": "TVS Jupiter",
+    "status": "busy",
+    "rating": 4.6,
+    "totalDeliveries": 890,
+    "earnings": 32000,
+    "coordinates": { "lat": 20.0080, "lng": 73.7920 }
+  },
+  {
+    "id": "driver_003",
+    "name": "Rajendra Gaikwad",
+    "phone": "+91 9876543214",
+    "email": "rajendra@quickbite.com",
+    "avatar": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=100",
+    "vehicle": "Bajaj Pulsar",
+    "status": "available",
+    "rating": 4.9,
+    "totalDeliveries": 2100,
+    "earnings": 78000,
+    "coordinates": { "lat": 20.0190, "lng": 73.7810 }
+  },
+  {
+    "id": "driver_004",
+    "name": "Sagar Mahajan",
+    "phone": "+91 9876543215",
+    "email": "sagar@quickbite.com",
+    "avatar": "https://images.unsplash.com/photo-1463453091185-61582044d556?w=100",
+    "vehicle": "Yamaha Fascino",
+    "status": "available",
+    "rating": 4.5,
+    "totalDeliveries": 650,
+    "earnings": 24000,
+    "coordinates": { "lat": 20.0150, "lng": 73.7780 }
+  },
+  {
+    "id": "driver_005",
+    "name": "Pravin Waghmare",
+    "phone": "+91 9876543216",
+    "email": "pravin@quickbite.com",
+    "avatar": "https://images.unsplash.com/photo-1507591064344-4c6ce005b128?w=100",
+    "vehicle": "Honda Dio",
+    "status": "offline",
+    "rating": 4.7,
+    "totalDeliveries": 1500,
+    "earnings": 55000,
+    "coordinates": { "lat": 20.0070, "lng": 73.7890 }
+  }
+]

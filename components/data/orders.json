@@ -1,0 +1,92 @@
+[
+  {
+    "id": "order_001",
+    "orderNumber": "QB-1001",
+    "userId": "user_001",
+    "restaurantId": "rest_002",
+    "restaurantName": "Domino's Pizza",
+    "items": [
+      { "id": "item_001", "name": "Margherita Pizza", "price": 299, "quantity": 1 },
+      { "id": "item_002", "name": "Garlic Breadsticks", "price": 149, "quantity": 1 }
+    ],
+    "status": "delivered",
+    "subtotal": 448,
+    "deliveryFee": 45,
+    "platformFee": 15,
+    "discount": 50,
+    "total": 458,
+    "deliveryAddress": {
+      "id": "addr_001",
+      "label": "Home",
+      "fullAddress": "Flat 201, Green Valley Apartments, Nashik",
+      "coordinates": { "lat": 20.0100, "lng": 73.7850 },
+      "isDefault": true
+    },
+    "paymentMethod": "upi",
+    "paymentStatus": "paid",
+    "placedAt": "2024-06-20T12:30:00Z",
+    "confirmedAt": "2024-06-20T12:31:00Z",
+    "preparingAt": "2024-06-20T12:35:00Z",
+    "readyAt": "2024-06-20T12:50:00Z",
+    "pickedAt": "2024-06-20T12:55:00Z",
+    "deliveredAt": "2024-06-20T13:20:00Z",
+    "estimatedDeliveryTime": 35,
+    "deliveryPartner": {
+      "id": "driver_001",
+      "name": "Vikram Jadhav",
+      "phone": "+91 9876543211",
+      "email": "rider@quickbite.com",
+      "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100",
+      "vehicle": "Honda Activa",
+      "status": "available",
+      "rating": 4.8,
+      "totalDeliveries": 1250,
+      "earnings": 45000,
+      "coordinates": { "lat": 20.0120, "lng": 73.7880 }
+    },
+    "timeline": [
+      { "status": "placed", "timestamp": "2024-06-20T12:30:00Z", "message": "Order placed successfully" },
+      { "status": "confirmed", "timestamp": "2024-06-20T12:31:00Z", "message": "Restaurant confirmed your order" },
+      { "status": "preparing", "timestamp": "2024-06-20T12:35:00Z", "message": "Kitchen started preparing your food" },
+      { "status": "ready", "timestamp": "2024-06-20T12:50:00Z", "message": "Food is ready for pickup" },
+      { "status": "picked", "timestamp": "2024-06-20T12:55:00Z", "message": "Delivery partner picked up your order" },
+      { "status": "on_the_way", "timestamp": "2024-06-20T13:00:00Z", "message": "Order is on the way" },
+      { "status": "delivered", "timestamp": "2024-06-20T13:20:00Z", "message": "Order delivered successfully" }
+    ]
+  },
+  {
+    "id": "order_002",
+    "orderNumber": "QB-1002",
+    "userId": "user_001",
+    "restaurantId": "rest_005",
+    "restaurantName": "Biryani House",
+    "items": [
+      { "id": "item_003", "name": "Chicken Dum Biryani (Full)", "price": 450, "quantity": 1 },
+      { "id": "item_004", "name": "Chicken Tikka", "price": 280, "quantity": 1 }
+    ],
+    "status": "preparing",
+    "subtotal": 730,
+    "deliveryFee": 50,
+    "platformFee": 20,
+    "discount": 100,
+    "total": 700,
+    "deliveryAddress": {
+      "id": "addr_001",
+      "label": "Home",
+      "fullAddress": "Flat 201, Green Valley Apartments, Nashik",
+      "coordinates": { "lat": 20.0100, "lng": 73.7850 },
+      "isDefault": true
+    },
+    "paymentMethod": "card",
+    "paymentStatus": "paid",
+    "placedAt": "2024-06-21T19:00:00Z",
+    "confirmedAt": "2024-06-21T19:01:00Z",
+    "preparingAt": "2024-06-21T19:05:00Z",
+    "estimatedDeliveryTime": 45,
+    "timeline": [
+      { "status": "placed", "timestamp": "2024-06-21T19:00:00Z", "message": "Order placed successfully" },
+      { "status": "confirmed", "timestamp": "2024-06-21T19:01:00Z", "message": "Restaurant confirmed your order" },
+      { "status": "preparing", "timestamp": "2024-06-21T19:05:00Z", "message": "Kitchen started preparing your food" }
+    ]
+  }
+]
