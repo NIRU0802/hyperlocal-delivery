@@ -1,16 +1,11 @@
 # 🚀 Hyperlocal Delivery
 
 <p align="center">
-  <a href="https://nextjs.org"><img src="https://img.shields.io/badge/Next.js_15-black?style=for-the-badge&logo=next.js&logoColor=white" alt="Next.js"></a>
-  <a href="https://react.dev"><img src="https://img.shields.io/badge/React_19-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React"></a>
-  <a href="https://www.typescriptlang.org"><img src="https://img.shields.io/badge/TypeScript_5.7-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"></a>
-  <a href="https://tailwindcss.com"><img src="https://img.shields.io/badge/Tailwind_CSS_3.4-38BDF8?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS"></a>
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/License-MIT-green?style=flat-square" alt="License">
-  <img src="https://img.shields.io/github/repo-size/NIRU0802/hyperlocal-delivery?style=flat-square" alt="Repo Size">
-  <img src="https://img.shields.io/github/contributors/NIRU0802/hyperlocal-delivery?style=flat-square" alt="Contributors">
+  <a href="https://github.com/NIRU0802/hyperlocal-delivery/blob/main/LICENSE" target="_blank"><img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" alt="License"></a>
+  <img src="https://img.shields.io/github/repo-size/NIRU0802/hyperlocal-delivery?style=for-the-badge" alt="Repo Size">
+  <img src="https://img.shields.io/github/contributors/NIRU0802/hyperlocal-delivery?style=for-the-badge" alt="Contributors">
+  <img src="https://img.shields.io/github/forks/NIRU0802/hyperlocal-delivery?style=for-the-badge" alt="Forks">
+  <img src="https://img.shields.io/github/stars/NIRU0802/hyperlocal-delivery?style=for-the-badge" alt="Stars">
 </p>
 
 ---
@@ -41,21 +36,21 @@
 ## 🛠️ Tech Stack
 
 ### Frontend
-- **Next.js 15** - React framework with App Router
-- **React 19** - UI library
-- **TypeScript 5.7** - Type safety
-- **Tailwind CSS 3.4** - Styling
+- **[Next.js 15](https://nextjs.org)** - React framework with App Router
+- **[React 19](https://react.dev)** - UI library
+- **[TypeScript 5.7](https://www.typescriptlang.org)** - Type safety
+- **[Tailwind CSS 3.4](https://tailwindcss.com)** - Styling
 
 ### State Management & Data
-- **Zustand 5** - Lightweight state management
-- **React Query** - Server state management
+- **[Zustand 5](https://zustand-demo.pmnd.rs)** - Lightweight state management
+- **[React Query](https://tanstack.com/query/latest)** - Server state management
 
 ### Maps & Visualization
-- **Leaflet** - Interactive maps for order tracking
-- **Recharts** - Data visualization for rider dashboard
+- **[Leaflet](https://leafletjs.com)** - Interactive maps for order tracking
+- **[Recharts](https://recharts.org)** - Data visualization for rider dashboard
 
 ### Animation
-- **Framer Motion** - Smooth animations
+- **[Framer Motion](https://www.framer.com/motion)** - Smooth animations
 
 ---
 
