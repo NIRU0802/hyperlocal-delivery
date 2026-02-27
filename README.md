@@ -1,10 +1,16 @@
 # 🚀 Hyperlocal Delivery
 
 <p align="center">
-  <img src="https://img.shields.io/github/repo-size/NIRU0802/hyperlocal-delivery?style=for-the-badge" alt="Repo Size">
-  <img src="https://img.shields.io/github/contributors/NIRU0802/hyperlocal-delivery?style=for-the-badge" alt="Contributors">
-  <img src="https://img.shields.io/github/forks/NIRU0802/hyperlocal-delivery?style=for-the-badge" alt="Forks">
-  <img src="https://img.shields.io/github/stars/NIRU0802/hyperlocal-delivery?style=for-the-badge" alt="Stars">
+  <a href="https://nodejs.org" target="_blank"><img src="https://img.shields.io/badge/Node.js-20-339933?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js"></a>
+  <a href="https://nextjs.org" target="_blank"><img src="https://img.shields.io/badge/Next.js_15-000000?style=for-the-badge&logo=next.js&logoColor=white" alt="Next.js"></a>
+  <a href="https://react.dev" target="_blank"><img src="https://img.shields.io/badge/React_19-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React"></a>
+  <a href="https://www.typescriptlang.org" target="_blank"><img src="https://img.shields.io/badge/TypeScript_5.7-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"></a>
+  <a href="https://tailwindcss.com" target="_blank"><img src="https://img.shields.io/badge/Tailwind_CSS_3.4-38BDF8?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS"></a>
+  <a href="https://zustand-demo.pmnd.rs" target="_blank"><img src="https://img.shields.io/badge/Zustand_5-764ABC?style=for-the-badge&logo=react&logoColor=white" alt="Zustand"></a>
+  <a href="https://tanstack.com/query/latest" target="_blank"><img src="https://img.shields.io/badge/React_Query-FF4154?style=for-the-badge&logo=react-query&logoColor=white" alt="React Query"></a>
+  <a href="https://leafletjs.com" target="_blank"><img src="https://img.shields.io/badge/Leaflet-199900?style=for-the-badge&logo=leaflet&logoColor=white" alt="Leaflet"></a>
+  <a href="https://recharts.org" target="_blank"><img src="https://img.shields.io/badge/Recharts-00D2D3?style=for-the-badge&logo=recharts&logoColor=white" alt="Recharts"></a>
+  <a href="https://www.framer.com/motion" target="_blank"><img src="https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white" alt="Framer Motion"></a>
 </p>
 
 ---
