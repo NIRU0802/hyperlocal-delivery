@@ -229,28 +229,6 @@ hyperlocal-delivery/
 
 ---
 
-## 🔑 Key Features Explained
-
-### 🍔 Food Ordering
-Browse restaurants with ratings, delivery times, and fees. View menus and add items to cart.
-
-### 🛒 Quickmart
-Grocery delivery with category-based filtering (e.g., Fruits & Vegetables, Dairy, Snacks).
-
-### ⚡ Instamart
-Fast delivery section for urgent ordering needs.
-
-### 🗺️ Live Order Tracking
-Interactive Leaflet maps showing delivery status and real-time tracking.
-
-### 🚴 Rider Dashboard
-Stats dashboard for delivery partners showing orders, earnings, and performance.
-
-### 👤 Authentication
-Login system with protected routes and user session management.
-
----
-
 ## 📦 API Endpoints
 
 | Endpoint | Method | Description |
