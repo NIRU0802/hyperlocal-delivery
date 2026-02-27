@@ -1,7 +1,6 @@
 # 🚀 Hyperlocal Delivery
 
 <p align="center">
-  <a href="https://github.com/NIRU0802/hyperlocal-delivery/blob/main/LICENSE" target="_blank"><img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" alt="License"></a>
   <img src="https://img.shields.io/github/repo-size/NIRU0802/hyperlocal-delivery?style=for-the-badge" alt="Repo Size">
   <img src="https://img.shields.io/github/contributors/NIRU0802/hyperlocal-delivery?style=for-the-badge" alt="Contributors">
   <img src="https://img.shields.io/github/forks/NIRU0802/hyperlocal-delivery?style=for-the-badge" alt="Forks">
@@ -210,12 +209,6 @@ Login system with protected routes and user session management.
 3. Commit your changes (`git commit -m 'Add some amazing feature'`)
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
-
----
-
-## 📝 License
-
-This project is licensed under the MIT License.
 
 ---
 
