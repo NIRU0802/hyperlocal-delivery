@@ -38,24 +38,101 @@
 
 ---
 
+## 🔑 Key Features Explained
+
+### 🍔 Food Delivery
+Browse restaurants with ratings, delivery times, and fees. View detailed menus with categories and pricing. Add items to cart and place orders seamlessly.
+
+### 🛒 Quickmart
+Grocery delivery platform with category-based filtering (Fruits & Vegetables, Dairy, Snacks, Beverages, etc.). Browse products and add to cart.
+
+### ⚡ Instamart
+Fast delivery section for urgent ordering needs with quick access to essential items.
+
+### 🗺️ Live Order Tracking
+Interactive Leaflet maps showing real-time delivery status. Track your order from restaurant to your doorstep with live updates.
+
+### 🚴 Rider Dashboard
+Comprehensive dashboard for delivery partners featuring:
+- Order statistics and earnings
+- Performance metrics with Recharts visualizations
+- Active order management
+
+### 👤 Authentication System
+Secure login/logout functionality with protected routes. User session management for personalized experience.
+
+### 📱 Responsive Design
+Mobile-first approach ensuring seamless experience across all devices - desktop, tablet, and mobile.
+
+---
+
+## ⚙️ How It Works
+
+```
+┌──────────────┐     ┌──────────────┐     ┌──────────────┐
+│   User       │────▶│   Browse     │────▶│   Add to    │
+│   Visits     │     │   Restaurants│     │   Cart      │
+└──────────────┘     └──────────────┘     └──────────────┘
+                                                │
+                                                ▼
+┌──────────────┐     ┌──────────────┐     ┌──────────────┐
+│   Delivered  │◀────│   Tracking   │◀────│  Checkout    │
+│   to Door    │     │   Live Map   │     │  & Payment   │
+└──────────────┘     └──────────────┘     └──────────────┘
+```
+
+### User Flow:
+1. **Browse** - Users explore restaurants, Quickmart, or Instamart
+2. **Select** - Choose items and add to cart
+3. **Checkout** - Review cart and place order
+4. **Track** - Real-time order tracking via map
+5. **Receive** - Order delivered to doorstep
+
+### Admin Flow:
+1. **Dashboard** - View and manage orders
+2. **Products** - Manage menu items and products
+
+### Rider Flow:
+1. **Login** - Access rider dashboard
+2. **View Orders** - See available delivery orders
+3. **Deliver** - Complete deliveries and update status
+
+---
+
 ## 🛠️ Tech Stack
 
-### Frontend
+### Core
+- **[Node.js 20](https://nodejs.org)** - JavaScript runtime
 - **[Next.js 15](https://nextjs.org)** - React framework with App Router
 - **[React 19](https://react.dev)** - UI library
 - **[TypeScript 5.7](https://www.typescriptlang.org)** - Type safety
-- **[Tailwind CSS 3.4](https://tailwindcss.com)** - Styling
 
-### State Management & Data
+### Styling & Build
+- **[Tailwind CSS 3.4](https://tailwindcss.com)** - Utility-first CSS framework
+- **[PostCSS](https://postcss.org)** - CSS transformations
+- **[Autoprefixer](https://github.com/postcss/autoprefixer)** - Vendor prefixer
+
+### State Management
 - **[Zustand 5](https://zustand-demo.pmnd.rs)** - Lightweight state management
-- **[React Query](https://tanstack.com/query/latest)** - Server state management
+- **[React Query 5](https://tanstack.com/query/latest)** - Server state management
 
-### Maps & Visualization
-- **[Leaflet](https://leafletjs.com)** - Interactive maps for order tracking
-- **[Recharts](https://recharts.org)** - Data visualization for rider dashboard
+### Maps & Location
+- **[Leaflet](https://leafletjs.com)** - Interactive maps
+- **[React Leaflet](https://react-leaflet.js.org)** - React bindings for Leaflet
+
+### Data Visualization
+- **[Recharts](https://recharts.org)** - Charts for rider dashboard
 
 ### Animation
-- **[Framer Motion](https://www.framer.com/motion)** - Smooth animations
+- **[Framer Motion 11](https://www.framer.com/motion)** - Animations and gestures
+
+### Utilities
+- **[clsx](https://github.com/lukeed/clsx)** - Conditional class names
+- **[React Virtual](https://tanstack.com/virtual)** - Virtual list rendering
+
+### Development
+- **[ESLint](https://eslint.org)** - Code linting
+- **[Turbopack](https://turbo.build/pack)** - Rust-based bundler
 
 ---
 
