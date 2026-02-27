@@ -7,12 +7,12 @@
 
 ---
 
-## 🚀 About Me
+## 💻 About Me
 
-- 🔭 I'm a **Full Stack Developer** passionate about building amazing web applications
-- 🌐 Check out my portfolio: [niiraj-portfolio.netlify.app](https://niiraj-portfolio.netlify.app)
-- 💬 Let's connect on [LinkedIn](https://www.linkedin.com/in/nirajkathe)
-- 📫 Reach me at: nirajkathe08@gmail.com
+- 🔭 Full Stack Developer building web applications
+- 🌐 [Portfolio](https://niiraj-portfolio.netlify.app)
+- 💼 [LinkedIn](https://www.linkedin.com/in/nirajkathe)
+- 📧 nirajkathe08@gmail.com
 
 ---
 
@@ -39,9 +39,10 @@
 |---------|-------------|------|
 | [hyperlocal-delivery](https://github.com/NIRU0802/hyperlocal-delivery) | Food & grocery delivery platform | Next.js, React, Tailwind |
 | [Decentragram](https://github.com/NIRU0802/Decentragram) | Decentralized social media | JavaScript |
-| [Ecommerce-Site](https://github.com/NIRU0802/Ecommerce-Site) | Full-featured e-commerce | HTML, CSS |
+| [Ecommerce-Site](https://github.com/NIRU0802/Ecommerce-Site) | E-commerce website | HTML, CSS |
 | [GR8-AI-Assistant](https://github.com/NIRU0802/GR8-AI-Assistant) | AI-powered assistant | TypeScript |
 | [society-management](https://github.com/NIRU0802/society-management) | Society management system | TypeScript |
+| [WeatherApp](https://github.com/NIRU0802/WeatherApp) | Weather forecast app | JavaScript |
 
 ---
 
@@ -62,11 +63,5 @@
 ---
 
 <p align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" alt="Quotes">
-</p>
-
----
-
-<p align="center">
-  ⭐ From [NIRU0802](https://github.com/NIRU0802)
+  ⭐ From <a href="https://github.com/NIRU0802">NIRU0802</a>
 </p>
