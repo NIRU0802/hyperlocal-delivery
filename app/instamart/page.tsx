@@ -16,8 +16,10 @@ const categories = [
   { id: 'all', label: 'All', icon: '🛒' },
   { id: 'grocery', label: 'Grocery', icon: '🥫' },
   { id: 'fruits', label: 'Fruits', icon: '🍎' },
+  { id: 'vegetables', label: 'Vegetables', icon: '🥬' },
   { id: 'snacks', label: 'Snacks', icon: '🍿' },
   { id: 'drinks', label: 'Drinks', icon: '🥤' },
+  { id: 'dairy', label: 'Dairy', icon: '🥛' },
   { id: 'instant food', label: 'Instant Food', icon: '🍜' },
   { id: 'household', label: 'Household', icon: '🧹' },
 ];
@@ -99,7 +101,9 @@ export default function InstamartPage() {
                         src={product.image}
                         alt={product.name}
                         fill
+                        sizes="(max-width: 640px) 50vw, (max-width: 768px) 33vw, 25vw"
                         className="object-cover"
+                        loading="lazy"
                       />
                       {product.originalPrice && (
                         <span className="absolute top-2 left-2 bg-red-500 text-white text-xs px-2 py-0.5 rounded">

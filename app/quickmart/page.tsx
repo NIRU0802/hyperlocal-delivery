@@ -10,63 +10,63 @@ const categories = [
     name: 'Fruits & Vegetables', 
     icon: '🥬', 
     color: 'from-green-500 to-emerald-500',
-    itemCount: 45
+    itemCount: 20
   },
   { 
     id: 'dairy-bread', 
     name: 'Dairy & Bread', 
     icon: '🥛', 
     color: 'from-blue-500 to-cyan-500',
-    itemCount: 32
+    itemCount: 10
   },
   { 
     id: 'cold-drinks', 
     name: 'Cold Drinks', 
     icon: '🥤', 
     color: 'from-purple-500 to-pink-500',
-    itemCount: 28
+    itemCount: 10
   },
   { 
     id: 'snacks-munchies', 
     name: 'Snacks & Munchies', 
     icon: '🍿', 
     color: 'from-yellow-500 to-orange-500',
-    itemCount: 56
+    itemCount: 12
   },
   { 
     id: 'instant-food', 
     name: 'Instant Food', 
     icon: '🍜', 
     color: 'from-red-500 to-rose-500',
-    itemCount: 24
+    itemCount: 8
   },
   { 
     id: 'breakfast-cereals', 
     name: 'Breakfast & Cereals', 
     icon: '🥣', 
     color: 'from-amber-500 to-yellow-500',
-    itemCount: 18
+    itemCount: 5
   },
   { 
     id: 'ice-creams', 
     name: 'Ice Creams', 
     icon: '🍦', 
     color: 'from-pink-500 to-rose-500',
-    itemCount: 15
+    itemCount: 4
   },
   { 
     id: 'personal-care', 
     name: 'Personal Care', 
     icon: '🧴', 
     color: 'from-violet-500 to-purple-500',
-    itemCount: 42
+    itemCount: 6
   },
   { 
     id: 'cleaning-essentials', 
     name: 'Cleaning Essentials', 
     icon: '🧹', 
     color: 'from-teal-500 to-cyan-500',
-    itemCount: 31
+    itemCount: 6
   },
 ];
 

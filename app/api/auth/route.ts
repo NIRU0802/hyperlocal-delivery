@@ -1,11 +1,7 @@
 import { NextResponse } from 'next/server';
 import users from '@/components/data/users.json';
 
-const delay = (ms: number) => new Promise(resolve => setTimeout(resolve, ms));
-
 export async function POST(request: Request) {
-  await delay(300);
-  
   const body = await request.json();
   const { email, password } = body;
 

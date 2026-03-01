@@ -1,11 +1,7 @@
 import { NextResponse } from 'next/server';
 import products from '@/components/data/instamartProducts.json';
 
-const delay = (ms: number) => new Promise(resolve => setTimeout(resolve, ms));
-
 export async function GET(request: Request) {
-  await delay(200);
-  
   const { searchParams } = new URL(request.url);
   const category = searchParams.get('category');
   const query = searchParams.get('q')?.toLowerCase();
@@ -23,5 +19,9 @@ export async function GET(request: Request) {
     );
   }
 
-  return NextResponse.json(filtered);
+  return NextResponse.json(filtered, {
+    headers: {
+      'Cache-Control': 'public, s-maxage=300, stale-while-revalidate=600'
+    }
+  });
 }

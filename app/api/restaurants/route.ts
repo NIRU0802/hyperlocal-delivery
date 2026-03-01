@@ -1,11 +1,7 @@
 import { NextResponse } from 'next/server';
 import restaurants from '@/components/data/restaurants.json';
 
-const delay = (ms: number) => new Promise(resolve => setTimeout(resolve, ms));
-
 export async function GET(request: Request) {
-  await delay(300);
-  
   const { searchParams } = new URL(request.url);
   const query = searchParams.get('q')?.toLowerCase();
   const cuisine = searchParams.get('cuisine');
@@ -53,5 +49,9 @@ export async function GET(request: Request) {
     };
   });
 
-  return NextResponse.json(filtered);
+  return NextResponse.json(filtered, {
+    headers: {
+      'Cache-Control': 'public, s-maxage=60, stale-while-revalidate=300'
+    }
+  });
 }

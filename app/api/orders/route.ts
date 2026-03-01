@@ -1,14 +1,12 @@
 import { NextResponse } from 'next/server';
 import orders from '@/components/data/orders.json';
 
-const delay = (ms: number) => new Promise(resolve => setTimeout(resolve, ms));
-
 export async function GET(request: Request) {
-  await delay(300);
-  
   const { searchParams } = new URL(request.url);
   const userId = searchParams.get('userId');
   const status = searchParams.get('status');
+  const page = parseInt(searchParams.get('page') || '1');
+  const limit = parseInt(searchParams.get('limit') || '20');
 
   let filtered = [...orders];
 
@@ -20,12 +18,25 @@ export async function GET(request: Request) {
     filtered = filtered.filter(o => o.status === status);
   }
 
-  return NextResponse.json(filtered);
+  const start = (page - 1) * limit;
+  const paginated = filtered.slice(start, start + limit);
+
+  return NextResponse.json({
+    data: paginated,
+    pagination: {
+      page,
+      limit,
+      total: filtered.length,
+      totalPages: Math.ceil(filtered.length / limit)
+    }
+  }, {
+    headers: {
+      'Cache-Control': 'public, s-maxage=60, stale-while-revalidate=300'
+    }
+  });
 }
 
 export async function POST(request: Request) {
-  await delay(500);
-  
   const body = await request.json();
   const newOrder = {
     ...body,
