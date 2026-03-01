@@ -7,7 +7,7 @@ export function middleware(request: NextRequest) {
   const role = request.cookies.get('thequick-role')?.value;
   const isAuthenticated = request.cookies.get('thequick-auth')?.value === 'true';
 
-  const publicPaths = ['/login', '/api', '/_next', '/favicon.ico'];
+  const publicPaths = ['/login', '/api', '/_next', '/favicon.ico', '/', '/quickmart', '/quickbite', '/instamart'];
   const isPublicPath = publicPaths.some((path) => pathname.startsWith(path));
 
   if (isPublicPath) {
@@ -34,19 +34,6 @@ export function middleware(request: NextRequest) {
 
   if (pathname.startsWith('/rider') && role !== 'rider') {
     return NextResponse.redirect(new URL('/login', request.url));
-  }
-
-  if (pathname === '/login' && isAuthenticated) {
-    if (role === 'quickbite_admin') {
-      return NextResponse.redirect(new URL('/admin/quickbite', request.url));
-    }
-    if (role === 'quickmart_admin') {
-      return NextResponse.redirect(new URL('/admin/quickmart', request.url));
-    }
-    if (role === 'rider') {
-      return NextResponse.redirect(new URL('/rider/dashboard', request.url));
-    }
-    return NextResponse.redirect(new URL('/', request.url));
   }
 
   return NextResponse.next();
