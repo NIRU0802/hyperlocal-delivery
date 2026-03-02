@@ -10,8 +10,6 @@
 [![React](https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react)](https://react.dev)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.7-3178C6?style=for-the-badge&logo=typescript)](https://www.typescriptlang.org)
 [![Tailwind](https://img.shields.io/badge/Tailwind-3.4-38B2AC?style=for-the-badge&logo=tailwind-css)](https://tailwindcss.com)
-[![Status](https://img.shields.io/badge/Status-Active-success?style=for-the-badge)](https://github.com/NIRU0802/hyperlocal-delivery)
-[![License](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
 ---
 
@@ -215,12 +213,6 @@ http://localhost:3000
 - ✨ **Animations** - Smooth transitions with Framer Motion
 - 🎯 **Micro-interactions** - Hover effects and feedback
 - 🗺️ **Maps** - Interactive delivery tracking
-
----
-
-## 📄 License
-
-MIT License - Feel free to use this project for learning and development.
 
 ---
 
