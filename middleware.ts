@@ -10,8 +10,12 @@ export function middleware(request: NextRequest) {
   const publicPaths = ['/login', '/api', '/_next', '/favicon.ico', '/quickmart', '/quickbite', '/instamart'];
   const isPublicPath = publicPaths.some((path) => pathname === path || pathname.startsWith(path + '/'));
 
-  if (pathname === '/') {
+  if (pathname === '/' && !isAuthenticated) {
     return NextResponse.redirect(new URL('/login', request.url));
+  }
+
+  if (pathname === '/' && isAuthenticated) {
+    return NextResponse.next();
   }
 
   if (isPublicPath) {

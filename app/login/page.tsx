@@ -15,7 +15,7 @@ export default function LoginPage() {
   const getRedirectPath = (role: string) => {
     switch (role) {
       case 'user':
-        return '/home';
+        return '/';
       case 'rider':
         return '/rider/dashboard';
       case 'quickbite_admin':
@@ -23,7 +23,7 @@ export default function LoginPage() {
       case 'quickmart_admin':
         return '/admin/quickmart';
       default:
-        return '/home';
+        return '/';
     }
   };
 
