@@ -1,5 +1,3 @@
-<div align="center">
-
 # THE QUICK
 
 ### Anything You Crave. Delivered Faster.
@@ -16,22 +14,6 @@
 ---
 
 A comprehensive **food & grocery delivery application** built with Next.js, featuring real-time tracking, multiple user roles, and instant delivery capabilities.
-
-[QuickBite](#) for food delivery & [QuickMart](#) for groceries
-
----
-
-## Table of Contents
-
-- [Features](#-features)
-- [How It Works](#-how-it-works)
-- [User Roles](#-user-roles)
-- [Tech Stack](#-tech-stack)
-- [Getting Started](#-getting-started)
-- [Login Credentials](#-login-credentials)
-- [Project Structure](#-project-structure)
-- [Key Pages](#-key-pages)
-- [UI Features](#-ui-features)
 
 ---
 
@@ -56,6 +38,8 @@ A comprehensive **food & grocery delivery application** built with Next.js, feat
 
 ## 🔄 How It Works
 
+<div align="center">
+
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
 │                              USER FLOW                                      │
@@ -72,6 +56,8 @@ A comprehensive **food & grocery delivery application** built with Next.js, feat
   │    🎉    │      │  Order   │      │ Placed   │      │  Cart    │
   └──────────┘      └──────────┘      └──────────┘      └──────────┘
 ```
+
+</div>
 
 | Step | Action | Description |
 |------|--------|-------------|
@@ -101,29 +87,25 @@ A comprehensive **food & grocery delivery application** built with Next.js, feat
 ## 🛠️ Tech Stack
 
 ### Frontend
-| Technology | Description | Official Site |
-|------------|-------------|---------------|
-| **Next.js** | React framework for production | [nextjs.org](https://nextjs.org) |
-| **React** | UI library | [react.dev](https://react.dev) |
-| **TypeScript** | Type-safe JavaScript | [typescriptlang.org](https://www.typescriptlang.org) |
-| **Tailwind CSS** | Utility-first CSS framework | [tailwindcss.com](https://tailwindcss.com) |
-| **PostCSS** | CSS transformations | [postcss.org](https://postcss.org) |
-| **Autoprefixer** | CSS vendor prefixes | [github.com/postcss/autoprefixer](https://github.com/postcss/autoprefixer) |
-| **Zustand** | State management | [zustand-demo.pmnd.rs](https://zustand-demo.pmnd.rs/) |
-| **TanStack React Query** | Async state management | [tanstack.com/query](https://tanstack.com/query/latest) |
-| **TanStack Virtual** | Virtual scrolling | [tanstack.com/virtual](https://tanstack.com/virtual/latest) |
-| **Framer Motion** | Animation library | [framer.com/motion](https://www.framer.com/motion/) |
-| **Recharts** | Charts for dashboard | [recharts.org](https://recharts.org) |
-| **clsx** | ClassName utility | [github.com/lukeed/clsx](https://github.com/lukeed/clsx) |
-| **Leaflet** | Interactive maps | [leafletjs.com](https://leafletjs.com) |
-| **React-Leaflet** | React Leaflet components | [react-leaflet.js.org](https://react-leaflet.js.org) |
+- **Next.js** - React framework for production
+- **React** - UI library
+- **TypeScript** - Type-safe JavaScript
+- **Tailwind CSS** - Utility-first CSS framework
+- **PostCSS** - CSS transformations
+- **Autoprefixer** - CSS vendor prefixes
+- **Zustand** - State management
+- **TanStack React Query** - Async state management
+- **TanStack Virtual** - Virtual scrolling
+- **Framer Motion** - Animation library
+- **Recharts** - Charts for dashboard
+- **clsx** - ClassName utility
+- **Leaflet** - Interactive maps
+- **React-Leaflet** - React Leaflet components
 
 ### Backend & Tools
-| Technology | Description | Official Site |
-|------------|-------------|---------------|
-| **Node.js** | JavaScript runtime | [nodejs.org](https://nodejs.org) |
-| **Vercel** | Deployment platform | [vercel.com](https://vercel.com) |
-| **ESLint** | Code linting | [eslint.org](https://eslint.org) |
+- **Node.js** - JavaScript runtime
+- **Vercel** - Deployment platform
+- **ESLint** - Code linting
 
 ---
 
@@ -243,7 +225,5 @@ MIT License - Feel free to use this project for learning and development.
 **Made with ❤️ by [Niraj Kathe](https://github.com/NIRU0802)**
 
 ⭐ If you found this useful, please give it a star!
-
-</div>
 
 </div>
