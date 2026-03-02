@@ -63,8 +63,6 @@ A comprehensive **food & grocery delivery application** built with Next.js, feat
 
 </div>
 
-<div align="center">
-
 | Step | Action | Description |
 |------|--------|-------------|
 | 1 | **Visit App** | User lands on login page |
@@ -76,8 +74,6 @@ A comprehensive **food & grocery delivery application** built with Next.js, feat
 | 7 | **Order Placed** | Order confirmed with tracking |
 | 8 | **Track** | Real-time order status |
 | 9 | **Delivered** | Order received successfully |
-
-</div>
 
 ---
 
