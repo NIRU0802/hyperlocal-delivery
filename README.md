@@ -4,6 +4,8 @@
 
 ### Anything You Crave. Delivered Faster.
 
+### [Live Demo](https://hyperlocal-delivery-eight.vercel.app)
+
 ---
 
 [![Next.js](https://img.shields.io/badge/Next.js-15-black?style=for-the-badge&logo=next.js)](https://nextjs.org)
@@ -21,6 +23,12 @@
 [![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js)](https://nodejs.org)
 [![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel)](https://vercel.com)
 [![ESLint](https://img.shields.io/badge/ESLint-4B32C3?style=for-the-badge&logo=eslint)](https://eslint.org)
+
+---
+
+## 🚀 Live Demo
+
+Check out the live application: **[THE QUICK](https://hyperlocal-delivery-eight.vercel.app)**
 
 ---
 
