@@ -215,18 +215,21 @@ export default function LandingPage() {
   const router = useRouter();
   const { isAuthenticated } = useAuthStore();
   const [mounted, setMounted] = useState(false);
+  const [hydrated, setHydrated] = useState(false);
 
   useEffect(() => {
     setMounted(true);
+    const timeout = setTimeout(() => setHydrated(true), 100);
+    return () => clearTimeout(timeout);
   }, []);
 
   useEffect(() => {
-    if (mounted && !isAuthenticated) {
+    if (mounted && hydrated && !isAuthenticated) {
       router.push('/login');
     }
-  }, [mounted, isAuthenticated, router]);
+  }, [mounted, hydrated, isAuthenticated, router]);
 
-  if (!mounted) {
+  if (!mounted || !hydrated) {
     return (
       <div className="min-h-screen bg-gray-900">
         <div className="h-screen flex items-center justify-center">
@@ -234,6 +237,11 @@ export default function LandingPage() {
         </div>
       </div>
     );
+  }
+
+  if (!isAuthenticated) {
+    router.push('/login');
+    return null;
   }
 
   return (
