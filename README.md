@@ -10,6 +10,17 @@
 [![React](https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react)](https://react.dev)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.7-3178C6?style=for-the-badge&logo=typescript)](https://www.typescriptlang.org)
 [![Tailwind](https://img.shields.io/badge/Tailwind-3.4-38B2AC?style=for-the-badge&logo=tailwind-css)](https://tailwindcss.com)
+[![PostCSS](https://img.shields.io/badge/PostCSS-DD3A0A?style=for-the-badge&logo=postcss)](https://postcss.org)
+[![Zustand](https://img.shields.io/badge/Zustand-3B6E2B?style=for-the-badge)](https://zustand-demo.pmnd.rs/)
+[![TanStack Query](https://img.shields.io/badge/TanStack_Query-FF4154?style=for-the-badge)](https://tanstack.com/query/latest)
+[![TanStack Virtual](https://img.shields.io/badge/TanStack_Virtual-2A3B8C?style=for-the-badge)](https://tanstack.com/virtual/latest)
+[![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer)](https://www.framer.com/motion/)
+[![Recharts](https://img.shields.io/badge/Recharts-22B5C8?style=for-the-badge)](https://recharts.org)
+[![clsx](https://img.shields.io/badge/clsx-2B7489?style=for-the-badge)](https://github.com/lukeed/clsx)
+[![Leaflet](https://img.shields.io/badge/Leaflet-1A9B03?style=for-the-badge&logo=leaflet)](https://leafletjs.com)
+[![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js)](https://nodejs.org)
+[![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel)](https://vercel.com)
+[![ESLint](https://img.shields.io/badge/ESLint-4B32C3?style=for-the-badge&logo=eslint)](https://eslint.org)
 
 ---
 
