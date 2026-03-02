@@ -10,6 +10,7 @@ const categories = [
     name: 'Fruits & Vegetables', 
     icon: '🥬', 
     color: 'from-green-500 to-emerald-500',
+    image: 'https://images.unsplash.com/photo-1540420773420-3366772f4999?w=400',
     itemCount: 20
   },
   { 
@@ -17,6 +18,7 @@ const categories = [
     name: 'Dairy & Bread', 
     icon: '🥛', 
     color: 'from-blue-500 to-cyan-500',
+    image: 'https://images.unsplash.com/photo-1563636619-e9143da7973b?w=400',
     itemCount: 10
   },
   { 
@@ -24,6 +26,7 @@ const categories = [
     name: 'Cold Drinks', 
     icon: '🥤', 
     color: 'from-purple-500 to-pink-500',
+    image: 'https://images.unsplash.com/photo-1622483767028-3f66f32aef97?w=400',
     itemCount: 10
   },
   { 
@@ -31,6 +34,7 @@ const categories = [
     name: 'Snacks & Munchies', 
     icon: '🍿', 
     color: 'from-yellow-500 to-orange-500',
+    image: 'https://images.unsplash.com/photo-1621447504864-d8686e12698c?w=400',
     itemCount: 12
   },
   { 
@@ -38,6 +42,7 @@ const categories = [
     name: 'Instant Food', 
     icon: '🍜', 
     color: 'from-red-500 to-rose-500',
+    image: 'https://images.unsplash.com/photo-1612929633738-8fe44f7ec841?w=400',
     itemCount: 8
   },
   { 
@@ -45,6 +50,7 @@ const categories = [
     name: 'Breakfast & Cereals', 
     icon: '🥣', 
     color: 'from-amber-500 to-yellow-500',
+    image: 'https://images.unsplash.com/photo-1517673400267-0251440c45dc?w=400',
     itemCount: 5
   },
   { 
@@ -52,6 +58,7 @@ const categories = [
     name: 'Ice Creams', 
     icon: '🍦', 
     color: 'from-pink-500 to-rose-500',
+    image: 'https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?w=400',
     itemCount: 4
   },
   { 
@@ -59,6 +66,7 @@ const categories = [
     name: 'Personal Care', 
     icon: '🧴', 
     color: 'from-violet-500 to-purple-500',
+    image: 'https://images.unsplash.com/photo-1556228578-0d85b1a4d571?w=400',
     itemCount: 6
   },
   { 
@@ -66,6 +74,7 @@ const categories = [
     name: 'Cleaning Essentials', 
     icon: '🧹', 
     color: 'from-teal-500 to-cyan-500',
+    image: 'https://images.unsplash.com/photo-1563453392212-326f5e854473?w=400',
     itemCount: 6
   },
 ];
@@ -82,8 +91,14 @@ function CategoryCard({ category, index }: { category: typeof categories[0]; ind
           whileHover={{ y: -4 }}
           className="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300"
         >
-          <div className={`h-32 bg-gradient-to-br ${category.color} flex items-center justify-center`}>
-            <span className="text-6xl">{category.icon}</span>
+          <div className="h-32 relative">
+            <img 
+              src={category.image} 
+              alt={category.name}
+              className="w-full h-full object-cover"
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent" />
+            <span className="absolute bottom-2 right-2 text-3xl">{category.icon}</span>
           </div>
           <div className="p-4">
             <h3 className="font-bold text-gray-900">{category.name}</h3>
