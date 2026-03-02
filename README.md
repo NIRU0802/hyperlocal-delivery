@@ -1,67 +1,67 @@
-# 👋 Hi, I'm Niraj Kathe!
+# THE QUICK - Hyperlocal Delivery Platform
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=NIRU0802&label=Profile%20Views&color=0e75b6&style=for-the-badge" alt="Profile Views">
-  <img src="https://img.shields.io/github/followers/NIRU0802?style=for-the-badge&logo=github&label=Followers" alt="Followers">
-</p>
+A full-stack hyperlocal delivery application for food and grocery delivery built with Next.js.
 
----
+## Features
 
-## 💻 About Me
+### For Customers
+- **QuickBite** - Order hot meals from nearby restaurants
+- **QuickMart** - Instant grocery delivery
+- Real-time order tracking
+- Multiple payment methods (UPI, Card, Cash on Delivery, Wallet)
+- Search functionality across restaurants and products
 
-- 🔭 Full Stack Developer building web applications
-- 🌐 [Portfolio](https://niiraj-portfolio.netlify.app)
-- 💼 [LinkedIn](https://www.linkedin.com/in/nirajkathe)
-- 📧 nirajkathe08@gmail.com
+### For Riders
+- Delivery dashboard
+- Order management
+- Live delivery tracking
 
----
+### For Admins
+- QuickBite Admin Dashboard
+- QuickMart Admin Dashboard
+- Restaurant & product management
 
-## 🛠️ Tech Stack
+## Tech Stack
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=react,nextjs,typescript,tailwind,nodejs,express,mongodb,firebase,figma,git,vscode,vercel" />
-</p>
+- **Frontend**: Next.js 15, React, TypeScript, Tailwind CSS
+- **Animations**: Framer Motion
+- **State Management**: Zustand
+- **Maps**: Leaflet (OpenStreetMap)
 
----
+## Getting Started
 
-## 📊 GitHub Stats
+```bash
+# Install dependencies
+npm install
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=NIRU0802&show_icons=true&theme=radical&hide_border=true&bg_color=0d1117" height="180" alt="Stats">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NIRU0802&layout=compact&theme=radical&hide_border=true&bg_color=0d1117" height="180" alt="Languages">
-</p>
+# Run development server
+npm run dev
+```
 
----
+## Login Credentials
 
-## 🏆 Featured Projects
+| Role | Email | Password |
+|------|-------|----------|
+| Customer | user@quickbite.com | 123456 |
+| Rider | rider@quickbite.com | 123456 |
+| QuickBite Admin | quickbite@admin.com | 123456 |
+| QuickMart Admin | quickmart@admin.com | 123456 |
 
-| Project | Description | Tech |
-|---------|-------------|------|
-| [hyperlocal-delivery](https://github.com/NIRU0802/hyperlocal-delivery) | Food & grocery delivery platform | Next.js, React, Tailwind |
-| [Decentragram](https://github.com/NIRU0802/Decentragram) | Decentralized social media | JavaScript |
-| [Ecommerce-Site](https://github.com/NIRU0802/Ecommerce-Site) | E-commerce website | HTML, CSS |
-| [GR8-AI-Assistant](https://github.com/NIRU0802/GR8-AI-Assistant) | AI-powered assistant | TypeScript |
-| [society-management](https://github.com/NIRU0802/society-management) | Society management system | TypeScript |
-| [WeatherApp](https://github.com/NIRU0802/WeatherApp) | Weather forecast app | JavaScript |
+## Project Structure
 
----
+```
+app/
+├── api/              # API routes
+├── login/            # Login page
+├── quickbite/        # Restaurant food ordering
+├── quickmart/       # Grocery delivery
+├── cart/            # Shopping cart
+├── checkout/        # Checkout flow
+├── track-order/     # Order tracking
+├── rider/           # Rider dashboard
+└── admin/           # Admin dashboards
+```
 
-## 📫 Connect With Me
+## License
 
-<p align="center">
-  <a href="https://linkedin.com/in/nirajkathe" target="_blank">
-    <img src="https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
-  </a>
-  <a href="https://niiraj-portfolio.netlify.app" target="_blank">
-    <img src="https://img.shields.io/badge/-Portfolio-00ADB5?style=for-the-badge&logo=portfolio&logoColor=white" alt="Portfolio">
-  </a>
-  <a href="mailto:nirajkathe08@gmail.com">
-    <img src="https://img.shields.io/badge/-Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
-  </a>
-</p>
-
----
-
-<p align="center">
-  ⭐ From <a href="https://github.com/NIRU0802">NIRU0802</a>
-</p>
+MIT
