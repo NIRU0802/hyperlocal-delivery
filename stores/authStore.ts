@@ -78,14 +78,16 @@ const MOCK_USERS: User[] = [
 
 const setAuthCookies = async (role: UserRole) => {
   if (typeof document === 'undefined') return;
-  document.cookie = `thequick-role=${role}; path=/; max-age=86400`;
-  document.cookie = `thequick-auth=true; path=/; max-age=86400`;
+  const isProduction = window.location.protocol === 'https:';
+  const secure = isProduction ? '; Secure' : '';
+  document.cookie = `thequick-role=${role}; path=/; max-age=86400; SameSite=Lax${secure}`;
+  document.cookie = `thequick-auth=true; path=/; max-age=86400; SameSite=Lax${secure}`;
 };
 
 const clearAuthCookies = async () => {
   if (typeof document === 'undefined') return;
-  document.cookie = 'thequick-role=; path=/; max-age=0';
-  document.cookie = 'thequick-auth=; path=/; max-age=0';
+  document.cookie = 'thequick-role=; path=/; max-age=0; SameSite=Lax';
+  document.cookie = 'thequick-auth=; path=/; max-age=0; SameSite=Lax';
 };
 
 export const useAuthStore = create<AuthState>()(
