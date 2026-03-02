@@ -1,38 +1,56 @@
-<p align="center">
-  <img src="https://img.shields.io/badge/Next.js-15-black?style=for-the-badge&logo=next.js" alt="Next.js">
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript" alt="TypeScript">
-  <img src="https://img.shields.io/badge/Tailwind CSS-38B2AC?style=for-the-badge&logo=tailwind-css" alt="Tailwind">
-  <img src="https://img.shields.io/badge/Status-Active-success?style=for-the-badge" alt="Status">
-</p>
+<div align="center">
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0E7CFF&height=180&section=header&text=THE%20QUICK&fontSize=60&animation=fadeIn&fontAlignY=40" width="100%"/>
-</p>
+# THE QUICK
 
-<h1 align="center">Hyperlocal Delivery Platform</h1>
-
-<p align="center">
-  A comprehensive food & grocery delivery application built with Next.js, featuring real-time tracking, multiple user roles, and instant delivery capabilities.
-</p>
+### Anything You Crave. Delivered Faster.
 
 ---
 
-## 📋 Table of Features
+[![Next.js](https://img.shields.io/badge/Next.js-15-black?style=for-the-badge&logo=next.js)](https://nextjs.org)
+[![React](https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react)](https://react.dev)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.7-3178C6?style=for-the-badge&logo=typescript)](https://www.typescriptlang.org)
+[![Tailwind](https://img.shields.io/badge/Tailwind-3.4-38B2AC?style=for-the-badge&logo=tailwind-css)](https://tailwindcss.com)
+[![Status](https://img.shields.io/badge/Status-Active-success?style=for-the-badge)](https://github.com/NIRU0802/hyperlocal-delivery)
+[![License](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
-| Feature | Description | Status |
-|---------|-------------|--------|
-| 🔐 Authentication | Login with role-based access (Customer, Rider, Admin) | ✅ |
-| 🍔 QuickBite | Order food from nearby restaurants | ✅ |
-| 🛒 QuickMart | Instant grocery delivery | ✅ |
-| 🔍 Search | Search restaurants, dishes, and products | ✅ |
-| 🛒 Shopping Cart | Add/remove items with quantity management | ✅ |
-| 💳 Checkout | Multiple payment methods | ✅ |
-| 📍 Order Tracking | Real-time order status updates | ✅ |
-| 🛵 Rider Dashboard | Delivery partner interface | ✅ |
-| 👨‍💼 Admin Panels | Restaurant & grocery management | ✅ |
-| 📱 Responsive | Mobile-first design | ✅ |
-| 🎨 Animations | Smooth UI transitions | ✅ |
-| 🗺️ Maps | Location-based delivery tracking | ✅ |
+---
+
+A comprehensive **food & grocery delivery application** built with Next.js, featuring real-time tracking, multiple user roles, and instant delivery capabilities.
+
+[QuickBite](#) for food delivery & [QuickMart](#) for groceries
+
+---
+
+## Table of Contents
+
+- [Features](#-features)
+- [How It Works](#-how-it-works)
+- [User Roles](#-user-roles)
+- [Tech Stack](#-tech-stack)
+- [Getting Started](#-getting-started)
+- [Login Credentials](#-login-credentials)
+- [Project Structure](#-project-structure)
+- [Key Pages](#-key-pages)
+- [UI Features](#-ui-features)
+
+---
+
+## 📋 Features
+
+| Feature | Description |
+|---------|-------------|
+| 🔐 **Authentication** | Login with role-based access (Customer, Rider, Admin) |
+| 🍔 **QuickBite** | Order food from nearby restaurants |
+| 🛒 **QuickMart** | Instant grocery delivery |
+| 🔍 **Search** | Search restaurants, dishes, and products |
+| 🛒 **Shopping Cart** | Add/remove items with quantity management |
+| 💳 **Checkout** | Multiple payment methods |
+| 📍 **Order Tracking** | Real-time order status updates |
+| 🛵 **Rider Dashboard** | Delivery partner interface |
+| 👨‍💼 **Admin Panels** | Restaurant & grocery management |
+| 📱 **Responsive** | Mobile-first design |
+| 🎨 **Animations** | Smooth UI transitions |
+| 🗺️ **Maps** | Location-based delivery tracking |
 
 ---
 
@@ -40,7 +58,7 @@
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
-│                            USER FLOW                                         │
+│                              USER FLOW                                      │
 └─────────────────────────────────────────────────────────────────────────────┘
 
   ┌──────────┐      ┌──────────┐      ┌──────────┐      ┌──────────┐
@@ -51,11 +69,9 @@
                                                               ▼
   ┌──────────┐      ┌──────────┐      ┌──────────┐      ┌──────────┐
   │ Delivered│ ◄─── │  Track   │ ◄─── │  Order   │ ◄─── │  Add to  │
-  │  🎉      │      │  Order   │      │ Placed   │      │  Cart    │
+  │    🎉    │      │  Order   │      │ Placed   │      │  Cart    │
   └──────────┘      └──────────┘      └──────────┘      └──────────┘
 ```
-
-### Step-by-Step Flow
 
 | Step | Action | Description |
 |------|--------|-------------|
@@ -76,35 +92,45 @@
 | Role | Access | Dashboard |
 |------|--------|-----------|
 | 👤 **Customer** | QuickBite, QuickMart, Orders | Home → Browse → Order |
-| 🛵 **Rider** | Delivery requests, Earnings | /rider/dashboard |
-| 👨‍💼 **QuickBite Admin** | Restaurants, Menu, Orders | /admin/quickbite |
-| 👩‍💼 **QuickMart Admin** | Products, Categories, Orders | /admin/quickmart |
+| 🛵 **Rider** | Delivery requests, Earnings | `/rider/dashboard` |
+| 👨‍💼 **QuickBite Admin** | Restaurants, Menu, Orders | `/admin/quickbite` |
+| 👩‍💼 **QuickMart Admin** | Products, Categories, Orders | `/admin/quickmart` |
 
 ---
 
 ## 🛠️ Tech Stack
 
 ### Frontend
-<p>
-  <img src="https://skillicons.dev/icons?i=nextjs,react,typescript,tailwind,framer" />
-</p>
+| Technology | Description | Official Site |
+|------------|-------------|---------------|
+| **Next.js** | React framework for production | [nextjs.org](https://nextjs.org) |
+| **React** | UI library | [react.dev](https://react.dev) |
+| **TypeScript** | Type-safe JavaScript | [typescriptlang.org](https://www.typescriptlang.org) |
+| **Tailwind CSS** | Utility-first CSS framework | [tailwindcss.com](https://tailwindcss.com) |
+| **PostCSS** | CSS transformations | [postcss.org](https://postcss.org) |
+| **Autoprefixer** | CSS vendor prefixes | [github.com/postcss/autoprefixer](https://github.com/postcss/autoprefixer) |
+| **Zustand** | State management | [zustand-demo.pmnd.rs](https://zustand-demo.pmnd.rs/) |
+| **TanStack React Query** | Async state management | [tanstack.com/query](https://tanstack.com/query/latest) |
+| **TanStack Virtual** | Virtual scrolling | [tanstack.com/virtual](https://tanstack.com/virtual/latest) |
+| **Framer Motion** | Animation library | [framer.com/motion](https://www.framer.com/motion/) |
+| **Recharts** | Charts for dashboard | [recharts.org](https://recharts.org) |
+| **clsx** | ClassName utility | [github.com/lukeed/clsx](https://github.com/lukeed/clsx) |
+| **Leaflet** | Interactive maps | [leafletjs.com](https://leafletjs.com) |
+| **React-Leaflet** | React Leaflet components | [react-leaflet.js.org](https://react-leaflet.js.org) |
 
 ### Backend & Tools
-<p>
-  <img src="https://skillicons.dev/icons?i=nodejs,vercel,git,vscode" />
-</p>
-
-### Libraries Used
-- **Zustand** - State management
-- **Framer Motion** - Animations
-- **Leaflet** - Maps & tracking
-- **TanStack Query** - Data fetching
+| Technology | Description | Official Site |
+|------------|-------------|---------------|
+| **Node.js** | JavaScript runtime | [nodejs.org](https://nodejs.org) |
+| **Vercel** | Deployment platform | [vercel.com](https://vercel.com) |
+| **ESLint** | Code linting | [eslint.org](https://eslint.org) |
 
 ---
 
 ## 🚀 Getting Started
 
 ### Prerequisites
+
 - Node.js 18+
 - npm or yarn
 
@@ -125,6 +151,7 @@ npm run dev
 ```
 
 ### Open in Browser
+
 ```
 http://localhost:3000
 ```
@@ -153,31 +180,25 @@ http://localhost:3000
 │   │   ├── products/           # QuickMart products
 │   │   └── restaurants/        # Restaurant data
 │   │
-│   ├── pages/
-│   │   ├── login/              # Login page
-│   │   ├── home/               # Main landing (post-login)
-│   │   ├── quickbite/          # Food ordering
-│   │   ├── quickmart/          # Grocery delivery
-│   │   ├── cart/               # Shopping cart
-│   │   ├── checkout/           # Checkout flow
-│   │   ├── track-order/        # Order tracking
-│   │   ├── rider/              # Rider dashboard
-│   │   └── admin/              # Admin dashboards
-│   │
+│   ├── login/                  # Login page
+│   ├── quickbite/              # Food ordering
+│   ├── quickmart/              # Grocery delivery
+│   ├── cart/                   # Shopping cart
+│   ├── checkout/               # Checkout flow
+│   ├── track-order/            # Order tracking
+│   ├── rider/                  # Rider dashboard
+│   └── admin/                  # Admin dashboards
+│
 ├── components/
 │   ├── store/                  # Zustand stores
-│   │   ├── authStore.ts        # Authentication state
-│   │   ├── cartStore.ts        # Cart management
-│   │   └── orderStore.ts       # Order state
-│   │
 │   ├── lib/                    # Utilities
 │   ├── hooks/                  # Custom hooks
 │   ├── data/                   # Mock data
 │   └── types/                  # TypeScript types
 │
 ├── stores/                     # Root store
-├── lib/                       # Utilities
-└── public/                    # Static assets
+├── lib/                        # Utilities
+└── public/                     # Static assets
 ```
 
 ---
@@ -213,20 +234,16 @@ http://localhost:3000
 
 ## 📄 License
 
-<p align="center">
-  <img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License">
-</p>
-
-<p align="center">
-  MIT License - Feel free to use this project for learning and development.
-</p>
+MIT License - Feel free to use this project for learning and development.
 
 ---
 
-<p align="center">
-  <strong>Made with ❤️ by <a href="https://github.com/NIRU0802">Niraj Kathe</a></strong>
-</p>
+<div align="center">
 
-<p align="center">
-  ⭐ If you found this useful, please give it a star!
-</p>
+**Made with ❤️ by [Niraj Kathe](https://github.com/NIRU0802)**
+
+⭐ If you found this useful, please give it a star!
+
+</div>
+
+</div>
