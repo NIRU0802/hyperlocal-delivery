@@ -1,3 +1,5 @@
+<div align="center">
+
 # THE QUICK
 
 ### Anything You Crave. Delivered Faster.
@@ -14,6 +16,8 @@
 ---
 
 A comprehensive **food & grocery delivery application** built with Next.js, featuring real-time tracking, multiple user roles, and instant delivery capabilities.
+
+</div>
 
 ---
 
@@ -59,6 +63,8 @@ A comprehensive **food & grocery delivery application** built with Next.js, feat
 
 </div>
 
+<div align="center">
+
 | Step | Action | Description |
 |------|--------|-------------|
 | 1 | **Visit App** | User lands on login page |
@@ -70,6 +76,8 @@ A comprehensive **food & grocery delivery application** built with Next.js, feat
 | 7 | **Order Placed** | Order confirmed with tracking |
 | 8 | **Track** | Real-time order status |
 | 9 | **Delivered** | Order received successfully |
+
+</div>
 
 ---
 
@@ -87,25 +95,25 @@ A comprehensive **food & grocery delivery application** built with Next.js, feat
 ## 🛠️ Tech Stack
 
 ### Frontend
-- **Next.js** - React framework for production
-- **React** - UI library
-- **TypeScript** - Type-safe JavaScript
-- **Tailwind CSS** - Utility-first CSS framework
-- **PostCSS** - CSS transformations
-- **Autoprefixer** - CSS vendor prefixes
-- **Zustand** - State management
-- **TanStack React Query** - Async state management
-- **TanStack Virtual** - Virtual scrolling
-- **Framer Motion** - Animation library
-- **Recharts** - Charts for dashboard
-- **clsx** - ClassName utility
-- **Leaflet** - Interactive maps
-- **React-Leaflet** - React Leaflet components
+- **[Next.js](https://nextjs.org)** - React framework for production
+- **[React](https://react.dev)** - UI library
+- **[TypeScript](https://www.typescriptlang.org)** - Type-safe JavaScript
+- **[Tailwind CSS](https://tailwindcss.com)** - Utility-first CSS framework
+- **[PostCSS](https://postcss.org)** - CSS transformations
+- **[Autoprefixer](https://github.com/postcss/autoprefixer)** - CSS vendor prefixes
+- **[Zustand](https://zustand-demo.pmnd.rs/)** - State management
+- **[TanStack React Query](https://tanstack.com/query/latest)** - Async state management
+- **[TanStack Virtual](https://tanstack.com/virtual/latest)** - Virtual scrolling
+- **[Framer Motion](https://www.framer.com/motion/)** - Animation library
+- **[Recharts](https://recharts.org)** - Charts for dashboard
+- **[clsx](https://github.com/lukeed/clsx)** - ClassName utility
+- **[Leaflet](https://leafletjs.com)** - Interactive maps
+- **[React-Leaflet](https://react-leaflet.js.org)** - React Leaflet components
 
 ### Backend & Tools
-- **Node.js** - JavaScript runtime
-- **Vercel** - Deployment platform
-- **ESLint** - Code linting
+- **[Node.js](https://nodejs.org)** - JavaScript runtime
+- **[Vercel](https://vercel.com)** - Deployment platform
+- **[ESLint](https://eslint.org)** - Code linting
 
 ---
 
