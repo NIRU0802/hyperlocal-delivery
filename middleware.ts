@@ -8,7 +8,7 @@ export function middleware(request: NextRequest) {
   const isAuthenticated = request.cookies.get('thequick-auth')?.value === 'true';
 
   const publicPaths = ['/login', '/api', '/_next', '/favicon.ico', '/', '/quickmart', '/quickbite', '/instamart'];
-  const isPublicPath = publicPaths.some((path) => pathname.startsWith(path));
+  const isPublicPath = publicPaths.some((path) => pathname === path || pathname.startsWith(path + '/'));
 
   if (isPublicPath) {
     return NextResponse.next();

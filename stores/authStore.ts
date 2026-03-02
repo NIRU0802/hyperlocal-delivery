@@ -125,14 +125,7 @@ export const useAuthStore = create<AuthState>()(
     }),
     {
       name: 'thequick-auth',
-      partialize: (state) => ({ user: state.user, role: state.role }),
-      onRehydrateStorage: () => (state) => {
-        if (state) {
-          state.isAuthenticated = false;
-          state.role = null;
-          state.user = null;
-        }
-      },
+      partialize: (state) => ({ user: state.user, role: state.role, isAuthenticated: state.isAuthenticated }),
     }
   )
 );
