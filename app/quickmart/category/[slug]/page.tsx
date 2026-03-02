@@ -121,12 +121,12 @@ function ProductCard({ product }: { product: Product }) {
       whileHover={{ y: -4 }}
       className="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300"
     >
-      <div className="relative h-40 bg-gray-100">
+      <div className="relative h-48 bg-gray-100 overflow-hidden">
         {product.image ? (
           <img 
             src={product.image} 
             alt={product.name}
-            className="w-full h-full object-cover"
+            className="w-full h-full object-cover object-center scale-110"
           />
         ) : (
           <div className="absolute inset-0 flex items-center justify-center text-6xl">

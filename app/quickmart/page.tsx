@@ -91,14 +91,14 @@ function CategoryCard({ category, index }: { category: typeof categories[0]; ind
           whileHover={{ y: -4 }}
           className="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300"
         >
-          <div className="h-32 relative">
+          <div className="h-40 relative overflow-hidden">
             <img 
               src={category.image} 
               alt={category.name}
-              className="w-full h-full object-cover"
+              className="w-full h-full object-cover object-center"
             />
-            <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent" />
-            <span className="absolute bottom-2 right-2 text-3xl">{category.icon}</span>
+            <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
+            <span className="absolute bottom-3 right-3 text-4xl bg-white/20 backdrop-blur-sm rounded-full p-2">{category.icon}</span>
           </div>
           <div className="p-4">
             <h3 className="font-bold text-gray-900">{category.name}</h3>
